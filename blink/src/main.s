@@ -37,7 +37,7 @@ _main_loop:								@ Вечный цикл
 wait:
 	push {r0}
 
-	ldr r0, =0xFFFF0					@ Записываем в r0 константу
+	ldr r0, =0x11110					@ Записываем в r0 константу
 
 _wait_loop:
 	subs r0, r0, 1						@ r0 - 1, если =0 то выставляется zero flag
