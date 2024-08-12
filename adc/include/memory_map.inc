@@ -22,7 +22,7 @@
 .equ RCC_BDCR,      RCC + 0x20      @ Backup domain control reg
 .equ RCC_CSR,       RCC + 0x24      @ Control/status register
 
-.equ GPIOC_CRL,     PORT_C          @ Port configuration register low
+.equ GPIOC_CRL,     PORT_C			@ Port configuration register low
 .equ GPIOC_CRH,     PORT_C + 0x04   @ Port configuration register high
 .equ GPIOC_IDR,		PORT_C + 0x08	@ Port input data register
 .equ GPIOC_ODR,		PORT_C + 0x0C	@ Port output data register
@@ -30,8 +30,8 @@
 .equ GPIOC_BRR,		PORT_C + 0x14	@ Port bit reset register
 .equ GPIOC_LCKR,	PORT_C + 0x18	@ Port configuration lock register
 
-.equ GPIOA_CRL,     PORT_A          @ Port configuration register low
-.equ GPIOA_CRH,     PORT_A + 0x04   @ Port configuration register high
+.equ GPIOA_CRL,		PORT_A          @ Port configuration register low
+.equ GPIOA_CRH,		PORT_A + 0x04   @ Port configuration register high
 .equ GPIOA_IDR,		PORT_A + 0x08	@ Port input data register
 .equ GPIOA_ODR,		PORT_A + 0x0C	@ Port output data register
 .equ GPIOA_BSRR,	PORT_A + 0x10	@ Port output data register
