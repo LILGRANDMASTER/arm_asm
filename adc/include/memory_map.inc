@@ -38,3 +38,49 @@
 .equ GPIOA_BRR,		PORT_A + 0x14	@ Port bit reset register
 .equ GPIOA_LCKR,	PORT_A + 0x18	@ Port configuration lock register
 
+.equ ADC1_SR,		ADC1			@ ADC status register
+.equ ADC1_CR1,		ADC1 + 0x04		@ ADC control register 1
+.equ ADC1_CR2,		ADC1 + 0x08		@ ADC control register 2
+.equ ADC1_SMPR1,	ADC1 + 0x0C		@ ADC sample time register 1
+.equ ADC1_SMPR2,	ADC1 + 0x10		@ ADC sample time register 2
+.equ ADC1_JOFR1,	ADC1 + 0x14		@ ADC injected channel data offset register 1
+.equ ADC1_JOFR2,	ADC1 + 0x18		@ ADC injected channel data offset register 2
+.equ ADC1_JOFR3,	ADC1 + 0x1C		@ ADC injected channel data offset register 3
+.equ ADC1_JOFR4,	ADC1 + 0x20		@ ADC injected channel data offset register 4
+.equ ADC1_HTR,		ADC1 + 0x24		@ ADC watchdog high threshold register
+.equ ADC1_LTR,		ADC1 + 0x28		@ ADC watchdog low threshold register
+.equ ADC1_SQR1,		ADC1 + 0x2C		@ ADC regular sequence register 1
+.equ ADC1_SQR2,		ADC1 + 0x30		@ ADC regular sequence register 2
+.equ ADC1_SQR3,		ADC1 + 0x34		@ ADC regular sequence register 3
+.equ ADC1_JSQR,		ADC1 + 0x38		@ ADC injected sequence register
+.equ ADC1_JDR1,		ADC1 + 0x3C		@ ADC injected data register 1
+.equ ADC1_JDR2,		ADC1 + 0x40		@ ADC injected data register 2
+.equ ADC1_JDR3,		ADC1 + 0x44		@ ADC injected data register 3
+.equ ADC1_JDR4,		ADC1 + 0x48		@ ADC injected data register 4
+.equ ADC1_DR,		ADC1 + 0x4C		@ ADC regular data register
+
+.equ ADC2_SR,		ADC2			@ ADC status register
+.equ ADC2_CR1,		ADC2 + 0x04		@ ADC control register 1
+.equ ADC2_CR2,		ADC2 + 0x08		@ ADC control register 2
+.equ ADC2_SMPR1,	ADC2 + 0x0C		@ ADC sample time register 1
+.equ ADC2_SMPR2,	ADC2 + 0x10		@ ADC sample time register 2
+.equ ADC2_JOFR1,	ADC2 + 0x14		@ ADC injected channel data offset register 1
+.equ ADC2_JOFR2,	ADC2 + 0x18		@ ADC injected channel data offset register 2
+.equ ADC2_JOFR3,	ADC2 + 0x1C		@ ADC injected channel data offset register 3
+.equ ADC2_JOFR4,	ADC2 + 0x20		@ ADC injected channel data offset register 4
+.equ ADC2_HTR,		ADC2 + 0x24		@ ADC watchdog high threshold register
+.equ ADC2_LTR,		ADC2 + 0x28		@ ADC watchdog low threshold register
+.equ ADC2_SQR1,		ADC2 + 0x2C		@ ADC regular sequence register 1
+.equ ADC2_SQR2,		ADC2 + 0x30		@ ADC regular sequence register 2
+.equ ADC2_SQR3,		ADC2 + 0x34		@ ADC regular sequence register 3
+.equ ADC2_JSQR,		ADC2 + 0x38		@ ADC injected sequence register
+.equ ADC2_JDR1,		ADC2 + 0x3C		@ ADC injected data register 1
+.equ ADC2_JDR2,		ADC2 + 0x40		@ ADC injected data register 2
+.equ ADC2_JDR3,		ADC2 + 0x44		@ ADC injected data register 3
+.equ ADC2_JDR4,		ADC2 + 0x48		@ ADC injected data register 4
+.equ ADC2_DR,		ADC2 + 0x4C		@ ADC regular data register
+
+
+
+
+
